@@ -1,0 +1,188 @@
+/*global*/
+
+body{
+    font-family: 'krub', sans-serif;
+}
+p{
+    line-height: 2;
+    font-size: 14px;
+   
+
+}
+
+
+
+h1,h2,h3{
+    text-align:center;
+}
+
+h1{
+    font-size: 35px;
+    background-color: teal;
+    text-align: center;
+}
+
+h2{
+    font-size: 28px;
+    color: #1f54b1;
+    background-color: beige;
+    
+}
+
+h3{
+    font-size: 20px;
+    color: #03818a;
+}
+
+/* header */
+
+header{
+    background-image: url(bluecode.gif);
+    color: white;
+    height: 300px;
+    width: 100%;
+    text-align: center;
+}
+
+.icon{
+    display:flex;
+    align-items: center;/*vertical alignment*/
+    justify-content: space-evenly; /*horizontal alignment*/
+
+    width: 100px;
+    height: 100px;
+    background-color: #87adff;
+    border-radius: 50%;
+
+    margin-left: auto;
+    margin-right: auto;
+   }
+
+.icon i{
+    font-size: 22px;
+    color: #c01f55;
+}
+
+
+main p{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    color: rgb(129, 64, 55);
+}
+
+.t-border {
+    border-top: 2px solid lightgrey;
+}
+
+/*menu*/
+.menu{
+    background-color: #212121;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-size:26px;
+    margin-right: 50px;    
+}
+.menu a:hover{
+    color:black;
+    font-size: 28px;
+    background-color:#ffe187;
+}
+ 
+
+
+/*List*/
+
+ul,ol{
+    list-style-image: url(icon.png);
+    background-color: #212121;
+    padding: 20px;
+    color: white;
+    width: 40%;
+}
+
+li{
+    background-color: #3b3b3b;
+    padding: 5px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+li:hover{
+    background-color:#212121;
+    color: #03818a;
+}
+
+
+
+/*Button Style*/
+
+.btn{
+    background-color: #03818a;
+    color:white;
+    font-size: 18px;
+    display:block;
+    width:200px;
+    margin-left:auto;
+    margin-right: auto;
+    border-radius: 8px;
+}
+
+.btn a{
+    color: white;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background-color: #212121;
+    color: #03818a;
+    transform: scale(3) rotate (360deg);
+}
+/*Presentation Card*/
+
+.card{
+    display:flex;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: white;
+    color:black;
+    width:40%;
+    border:1px solid black;
+    margin-top:50px;
+    margin-right:auto;
+    margin-left: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+.main-contact{
+    height: 60vh;
+}
+
+/*Form*/
+
+.form{
+    display:flex;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: white;
+    color:black;
+    width:40%;
+    border:1px solid black;
+    margin-top:50px;
+    margin-right:auto;
+    margin-left: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#main-footer {
+    padding-top:60px;
+    padding-bottom: 60px;
+    border-bottom:solid 10px black;
+}
