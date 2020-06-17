@@ -10,7 +10,9 @@ p{
 
 }
 
-
+img{
+    width:100%;
+}
 
 h1,h2,h3{
     text-align:center;
@@ -43,7 +45,15 @@ header{
     width: 100%;
     text-align: center;
 }
-
+/*Images for Bio*/
+.genome{
+    width: 600px;
+    display:block;
+    margin-right:auto;
+    margin-left:auto;
+        
+}
+        
 .icon{
     display:flex;
     align-items: center;/*vertical alignment*/
@@ -75,6 +85,9 @@ main p{
 .t-border {
     border-top: 2px solid lightgrey;
 }
+
+
+
 
 /*menu*/
 .menu{
