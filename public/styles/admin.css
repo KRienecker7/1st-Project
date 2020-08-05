@@ -1,0 +1,34 @@
+html {
+    background-color: aqua;
+}
+
+h2 {
+    color: blue;
+    background-color: aquamarine;
+    text-align: center;
+}
+
+h2:hover {
+    color: bisque;
+}
+
+.form {
+    color:white;
+    font-weight: bold;
+    font-size: 25px;
+
+}
+
+.container{
+    background-image:  url(/imgs/background1.jpg);
+    
+}
+#btnSave {
+    padding-bottom: 2px;
+}
+
+#btnSave:hover {
+    color: bisque;
+}
+
+
